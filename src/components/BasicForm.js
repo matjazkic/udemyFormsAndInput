@@ -22,7 +22,7 @@ const BasicForm = (props) => {
  */
   const [test, setTest] = useState(0);
   const {
-    enteredValue: enteredName,
+    value: enteredName,
     hasError: nameHasError,
     inputValueHandler: firstNameHandler,
     inputBlur: nameInputBlur,
